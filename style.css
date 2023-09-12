@@ -1,0 +1,42 @@
+.conatainer {
+    background: url('https://img.freepik.com/free-vector/rose-gold-glitter-frame-pink-festive_53876-111738.jpg?w=2000');
+    /* background-color: black; */
+    background-size: 100% 100%;
+    height: 47vw;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conatainer h1 {
+    font-size: 50px;
+    color: #c55d67a7;
+    
+}
+
+.clock {
+    background-color: pink;
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    font-size: 40px;
+    backdrop-filter: blur(40px);
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width:600px) {
+    .clock {
+        padding: 8px;
+        width: 131px;
+        font-size: 21px;
+    }
+    
+    .conatainer h1 {
+    font-size: 22px;
+    }
+}
